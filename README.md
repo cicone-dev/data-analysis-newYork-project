@@ -5,14 +5,12 @@
 ![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-> **Resumo:** Uma análise exploratória de dados focada em estratégias de precificação, onde decisões de negócio se sobrepuseram a regras estatísticas padrão para preservar o mercado de luxo de Nova York.
+> **Resumo:** Uma análise profunda de dados focada em estratégias para Business Insight, onde decisões de negócio se sobrepuseram a regras estatísticas padrão para preservar o mercado Nova York.
 ---
 
 ## 💼 O Problema de Negócio
-Você foi contratado como Analista de Dados para a expansão do Airbnb em Nova York. O desafio não é apenas "limpar dados", mas responder a perguntas estratégicas:
-1. Como precificar corretamente em um mercado tão saturado?
-2. Onde termina o preço justo e começa o "outlier" (erro)?
-3. Qual a diferença de comportamento entre hosts amadores e profissionais?
+Você foi contratado como Analista de Dados para a expansão do Airbnb em Nova York. O desafio não é apenas "limpar dados", mas responder a perguntas estratégicas 
+cruzando variáveis de preço, localização e comportamento dos anfitriões, chegando a insights sobre como esse mercado opera na cidade mais influente do mundo.
 
 ## 💡 O Diferencial do Projeto (Business Acumen)
 Durante a Análise Exploratória (EDA), deparei-me com um dilema comum em Data Science: **Seguir a estatística cega ou o contexto de negócio?**
@@ -27,11 +25,11 @@ Durante a Análise Exploratória (EDA), deparei-me com um dilema comum em Data S
 ## 📊 Principais Insights
 
 ### 1. Manhattan vs. Brooklyn
-Enquanto Manhattan dita os preços mais altos, o **Brooklyn** se consolidou como uma "zona de suporte". Ele absorve a demanda que busca custo-benefício sem sacrificar o acesso à ilha, funcionando como um pulmão essencial para o ecossistema.
+Enquanto Manhattan dita os preços mais altos e uma alta densidade esmagadora de imóveis, Brooklyn, por sua vez, atua como uma zona de suporte, absorvendo a demanda excedente com preços ligeiramente mais competitivos, mas ainda elevados pela proximidade com a ilha.
 
 ### 2. O Que Move o Preço? (Falha do Modelo Linear)
 Ao aplicar uma Regressão Linear, obtivemos um **R² de 0.32**.
-* **Interpretação:** O preço em NY **não** é explicado apenas por *Bairro* ou *Tipo de Quarto*. Variáveis intangíveis ("Vibe", Design, Vista, Proximidade Específica) têm peso desproporcional. Isso indica a necessidade de modelos de Machine Learning mais robustos (como Random Forest ou XGBoost) para precificação automática.
+* **Interpretação:** O preço em NY **não** é explicado apenas por *Bairro* ou *Tipo de Quarto*. Variáveis 'invisíveis' (luxo, proximidade específica de hubs e design) têm peso desproporcional. Isso indica a necessidade de modelos de Machine Learning mais complexos para precificação automática.
 
 ### 3. A Profissionalização dos Hosts
 Identificamos *hosts* com centenas de propriedades listadas. Isso aponta para a existência de **gestores imobiliários profissionais** operando dentro da plataforma, focados no público de *Business Travel* (ticket médio > $180).
@@ -57,7 +55,7 @@ A análise comprovou que estratégias de precificação únicas não funcionam e
 
 * **Google Colab** Analise dos Dados
 * **Pandas & NumPy:** Manipulação e limpeza de dados.
-* **Visualização:** Seaborn, Matplotlib, PyWaffle (Gráficos de Waffle para composição de tipos de quarto).
+* **Visualização:** Seaborn, Matplotlib, PyWaffle.
 * **Geolocalização:** Folium & HeatMaps (Mapas de calor de densidade de preço).
 * **Scikit-Learn:** Modelagem preditiva (Regressão Linear).
 
@@ -86,3 +84,4 @@ jupyter notebook notebooks/Analise_de_Dados_NYC_airbnb_final.ipynb
 │   └── Analise_de_Dados_NYC_airbnb_final.ipynb
 ├── README.md
 └── requirements.txt           # Dependencias
+
