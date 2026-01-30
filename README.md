@@ -40,7 +40,7 @@ A análise comprovou que estratégias de precificação únicas não funcionam e
   - Segmento Corporativo: Parcerias com "Super Hosts" profissionais ($180+).
 ---
 
-## 📸 Visualizações do Projeto
+## 📸 Algumas Visualizações do Projeto
 
 | Grafico de Relação | Mapa de Calor NYC |
 |:--------------------------------:|:------------------------------:|
@@ -84,4 +84,5 @@ jupyter notebook notebooks/Analise_de_Dados_NYC_airbnb_final.ipynb
 │   └── Analise_de_Dados_NYC_airbnb_final.ipynb
 ├── README.md
 └── requirements.txt           # Dependencias
+
 
