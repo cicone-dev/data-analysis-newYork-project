@@ -7,6 +7,9 @@
 
 > **Resumo:** Uma análise profunda de dados focada em estratégias para Business Insight, onde decisões de negócio se sobrepuseram a regras estatísticas padrão para preservar o mercado Nova York.
 ---
+## LINK DO PROJETO
+  Convido a darem uma olhada no meu artigo que publiquei no Medium com todas as minhas análises:
+[clique aqui](https://medium.com/@cauan.cicone/al%C3%A9m-da-localiza%C3%A7%C3%A3o-desvendando-a-precifica%C3%A7%C3%A3o-do-airbnb-em-nyc-com-python-ef15c652d6f7)
 
 ## 💼 O Problema de Negócio
 Você foi contratado como Analista de Dados para a expansão do Airbnb em Nova York. O desafio não é apenas "limpar dados", mas responder a perguntas estratégicas 
@@ -50,6 +53,7 @@ A análise comprovou que estratégias de precificação únicas não funcionam e
 
 ---
 
+
 ## 🛠️ Tecnologias Utilizadas
 
 
@@ -84,5 +88,6 @@ jupyter notebook notebooks/Analise_de_Dados_NYC_airbnb_final.ipynb
 │   └── Analise_de_Dados_NYC_airbnb_final.ipynb
 ├── README.md
 └── requirements.txt           # Dependencias
+
 
 
